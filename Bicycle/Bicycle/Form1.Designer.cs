@@ -49,6 +49,7 @@
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "检索";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // wbmap
             // 
@@ -68,7 +69,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtaddr);
             this.Name = "fmBY";
-            this.Text = "Form1";
+            this.Text = "公共自行车";
             this.Load += new System.EventHandler(this.fmBY_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
